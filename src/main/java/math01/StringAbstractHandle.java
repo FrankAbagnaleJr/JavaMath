@@ -1,7 +1,5 @@
 package math01;
 
-import com.sun.xml.internal.ws.util.StringUtils;
-
 import java.util.Objects;
 
 /**
@@ -11,7 +9,7 @@ import java.util.Objects;
  * @Version: 1.0
  * @description TODO
  */
-public abstract class AbstractHandle implements Handle{
+public abstract class StringAbstractHandle implements Handle{
 
     @Override
     public String handle(String str) {

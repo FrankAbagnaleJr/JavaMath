@@ -7,7 +7,7 @@ package math01;
  * @Version: 1.0
  * @description 把字符串中的A变成@
  */
-public class StringHandle extends AbstractHandle{
+public class ChangeAStringAbstractHandle extends StringAbstractHandle {
     @Override
     public String doHandle(String str) {
         return str.replace("A", "@");

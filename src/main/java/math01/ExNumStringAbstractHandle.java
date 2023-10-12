@@ -7,7 +7,7 @@ package math01;
  * @Version: 1.0
  * @description 把字符串中的数字都去掉
  */
-public class NumberHandle extends AbstractHandle{
+public class ExNumStringAbstractHandle extends StringAbstractHandle {
     @Override
     public String doHandle(String str) {
         //正则表达式\\d表示匹配数字，而空字符串""表示将匹配到的数字替换为空
